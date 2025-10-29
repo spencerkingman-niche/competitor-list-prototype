@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #009266;
+  --color-secondary: #00DF8B;
+  --color-background: #FBF5F2;
+  --color-link: #346DC2;
+  --color-accent-1: #835000;
+  --color-accent-2: #FF9B00;
+  --color-accent-3: #FB5A00;
+  --color-accent-4: #FF90E7;
+  --color-accent-5: #8CA6FF;
+  --color-near-black: #1a1a1a;
+  --color-near-white: #fafafa;
+  --color-text: #2d2d2d;
+  --color-text-light: #666666;
+}
+
+body {
+  margin: 0;
+  font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--color-background);
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.filter-option input[type="radio"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.filter-option span {
+  text-align: left;
+}

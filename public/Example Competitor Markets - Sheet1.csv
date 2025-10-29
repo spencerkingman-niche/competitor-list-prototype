@@ -1,0 +1,289 @@
+COLLEGE_COMPETITOR_ID,COLLEGE_UUID,COLLEGE_NAME,COMPETITOR_UUID,COMPETITOR_NAME,COMPETITOR_SET_NAME,COMPETITOR_SET_DESCRIPTION,COMPETITOR_SET_PRIORITY
+1,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,09e8cd9a-f401-4c8b-a79c-f02e10ac0201,University of California - Berkeley,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+2,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,0e72bf23-a3cf-4995-9585-33b5bd0f9222,Middlebury College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+3,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,127ec524-4bac-4a5c-a7f5-1ead9c309f44,Amherst College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+4,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,1a78b6e5-fe24-443a-967d-40079fd070ff,Pomona College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+5,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,1d1d82cf-c659-49f0-a526-7afb85bd3a4f,University of California - Los Angeles,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+6,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,20d662be-8428-4de2-bf0d-72d22f0a04b5,Harvey Mudd College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+7,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,271075b3-07a0-450b-b4f3-78eb1fc7c03a,Haverford College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+8,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,2c036559-5ebb-4c00-b3b8-6679a91fb040,Bates College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+9,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,36c0c543-fda9-46a8-9e7d-03cc4805862f,Bowdoin College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+10,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,465d4a73-875c-498e-9c8f-e47568e156f2,Williams College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+11,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,5c9ab696-de0e-4271-8bf4-163137359704,Willamette University,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+12,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,65921618-05b4-4f95-ad8a-883b92dc9a77,St John's College - Santa Fe,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+13,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,6d81d181-4b7b-434c-bf08-669079673e7c,University of Colorado Boulder,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+14,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,891f20e2-4b6f-4626-83f3-15d502b2e7c1,Swarthmore College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+15,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,8ccaa673-b878-4654-a1cb-d11c55174936,Northwestern University,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+16,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,a1541d26-e31e-4935-91a6-bace82415430,Pitzer College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+17,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,aab81765-0dc0-4f7e-ac15-280590baed68,Colorado College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+18,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,ad03b8e1-d0a1-41d6-a01a-aaf75ac1e615,Scripps College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+19,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,bbb471e1-f21d-4278-83a4-c97222ee902d,Macalaster College,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+20,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,c9a51b75-93aa-4d2a-9dc3-10abab61d1eb,Occidental College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+21,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,d33fe5ed-526e-42c7-9f5f-9c58eed4a024,Whitman College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+22,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,d89702e5-2618-48c0-ba58-a67a9f0411c8,Grinnell College,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+23,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,d8e776e3-b586-4ca3-9b96-3be5437a570d,Colby College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+24,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,dae7241a-4d00-4c50-b1a5-f33baf3a6c3b,Claremont McKenna College,West Coast Liberal Arts,Identify student from outside the west coast looking for west coast libearl arts colleges indicating a willingness to travel,1
+25,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,dd4fcd82-8e4e-4f4c-a7dc-fadcebb49681,Barnard College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+26,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,e3c7da9f-a6d3-4951-bfbb-6049c2ac56e2,Stanford University,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+27,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,e3c7da9f-a6d3-4951-bfbb-6049c2ac56e2,University of Chicago,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+28,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,e73c0c6b-7b57-4725-ab1b-8f57eaf16faa,University of Southern California,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+29,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,f3f43192-6c4b-4c7e-91fb-865163711c5c,Wellesley College,East Coast Liberal Arts,Identify student from outside the east coast looking at east coast liberal arts colleges indicating a willingness to travel,2
+30,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,f5464544-1058-40ec-a8be-41422b38bd6c,University of Washington,Elite West Coast/Mid West,Broader reach based on west/mid-west elite college,3
+31,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,64d8b1e0-b8cb-4358-8880-643050a09d66,Western Washington University,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+32,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,6fc3bda8-3fc1-432a-bb6d-7aeb8e83610a,Cal Poly San Luis Obispo,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+33,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,bdfbfaf3-f957-4b03-8c05-b600a3938e27,Portland State University,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+34,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,02b90d8e-3ae7-4e90-8010-bccedd518371,University of California - Santa Cruz,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+35,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,a318fffc-8494-4337-a750-37c464292a01,University of Oregon,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+36,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,ada7d3b1-b9c5-41cd-ad95-bddb87711e19,Oregon State University,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+37,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,c323725c-f4bb-49c3-90d4-e35b25c46a29,University of California - Davis,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+38,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,f56abd54-4c72-4706-aa60-b7b2db1435b1,University of California - Santa Barbara,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+39,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,7d19ae37-bb2c-4ad8-989f-5fd1cd0c45ce,Washington State University,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+40,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,dbd44661-bd7c-4bda-99aa-d85184537739,University of Utah,West Coast Publics,West coast publics with a high similarity score based on Niche's model. ,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,91451c36-ddf8-4179-9ef1-2398f341386e,American University,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,e3dffeaa-58fa-41d3-bf56-fe2ea314642c,George Washington University,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,eeb0e829-996a-45b1-9671-3ef4af096423,Virginia Tech,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,9ea86cb5-e8a6-47e6-a219-fdcabc31ae51,University of Virginia,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,9ec8d52e-4aec-4d22-8932-cd330813dcd5,Washington and Lee University,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,bc6f707c-da0e-4db1-b06f-ebfe9473423b,Johns Hopkins University,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2693c41f-c465-4b35-9f72-cf0c84c54d7b,Rensselaer Polytechnic Institute,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,16e73fef-82a8-4fe4-ae06-3f1392e31d63,"Binghamton University, SUNY",DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,1cdf907c-1b8c-4174-9277-c67d6a59d677,Syracuse University,DMV,Target list of competitor schools for recruitment in the DMV market. ,1
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,a1237f7c-3941-41ce-ba42-687c276b73b4,Lehigh University,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,d8a17c0f-cc25-4d2a-b231-0303ea016427,Carnegie Mellon University,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2903a6b2-8158-4848-8d1a-81ebdbba393c,Penn State,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,7c5933a0-8dd6-4313-89cf-c9a3f41b7d3b,Case Western Reserve University,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,94e9c220-e7d8-464d-a9fa-505420b03862,Stevens Institute of Technology,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2b3e0dea-5255-4fa4-af03-4a14bb5889f0,New Jersey Institute of Technology,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2693c41f-c465-4b35-9f72-cf0c84c54d7b,Rensselaer Polytechnic Institute,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,16e73fef-82a8-4fe4-ae06-3f1392e31d63,"Binghamton University, SUNY","PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,1cdf907c-1b8c-4174-9277-c67d6a59d677,Syracuse University,"PA, NJ, OH","Target list of competitor schools for recruitment in the PA, NJ, and OH markets",2
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,20a0947f-4d4c-4c36-8e94-bf0a2ba50e4f,University of Chicago,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,b20b9772-c557-417c-8d31-ea9b18f43691,Rose-Hulman Institute of Technology,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0ad52ae5-18ba-46b2-a623-33a0eb5c108f,Purdue University,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,762669d6-eb9c-4ed9-bce4-a2f1c24b723a,Michigan Technological University,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,de47f4f1-92dd-4632-8a9f-986370be041a,University of Michigan - Ann Arbor,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2693c41f-c465-4b35-9f72-cf0c84c54d7b,Rensselaer Polytechnic Institute,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,16e73fef-82a8-4fe4-ae06-3f1392e31d63,"Binghamton University, SUNY",Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,1cdf907c-1b8c-4174-9277-c67d6a59d677,Syracuse University,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,ecbc8d55-b1c6-4b90-8c3a-322cf655b115,Worcester Polytechnic Institute,Illinois,Target list of competitor schools for recruitment in Illinois,3
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,c3ea35a9-85d8-473b-a511-4f7d71c3b78e,North Carolina State University,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2c2398bc-a663-4ce4-93b9-37878535cce1,Wake Forest University,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,5712b0c1-3a40-4ea1-a324-9c4f76fefd10,University of North Carolina at Chapel Hill,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,5d8311b5-d631-42be-ab3c-2a5b3a446745,Georgia Institute of Technology,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,eeb0e829-996a-45b1-9671-3ef4af096423,Virginia Tech,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2903a6b2-8158-4848-8d1a-81ebdbba393c,Penn State,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,ecbc8d55-b1c6-4b90-8c3a-322cf655b115,Worcester Polytechnic Institute,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2693c41f-c465-4b35-9f72-cf0c84c54d7b,Rensselaer Polytechnic Institute,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2b3e0dea-5255-4fa4-af03-4a14bb5889f0,New Jersey Institute of Technology,North Carolina,Target list of competitor schools for recruitment in North Carolina,4
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,5661693d-f152-4d12-b65f-f318532a03d5,University of St. Thomas - Minnesota,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,9d87a681-a420-4920-a729-3cfaa05b02b9,St. Olaf College,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,bbb471e1-f21d-4278-83a4-c97222ee902d,Macalester College,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,de47f4f1-92dd-4632-8a9f-986370be041a,University of Michigan - Ann Arbor,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,2693c41f-c465-4b35-9f72-cf0c84c54d7b,Rensselaer Polytechnic Institute,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0ad52ae5-18ba-46b2-a623-33a0eb5c108f,Purdue University,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,1cdf907c-1b8c-4174-9277-c67d6a59d677,Syracuse University,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,ecbc8d55-b1c6-4b90-8c3a-322cf655b115,Worcester Polytechnic Institute,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,10c0e73c-32cf-4949-8ab0-03511195faa5,Clarkson University,7c5933a0-8dd6-4313-89cf-c9a3f41b7d3b,Case Western Reserve University,Minnesota,Target list of competitor schools for recruitment in Minnesota,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,6d71d96c-77f0-4fc6-846f-8f4835ca6420,Kenyon College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,d89702e5-2618-48c0-ba58-a67a9f0411c8,Grinnell College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,bbb471e1-f21d-4278-83a4-c97222ee902d,Macalester College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,2585ec6d-0fea-499c-b7e1-a4b445853139,Denison University,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,66d370e2-6bbb-4e64-bff6-d719a0ddb2cb,Carleton College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,7e5b204e-da28-40c9-b69c-6dde84b11630,Oberlin College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,f3315e60-decf-4d24-9051-86c3a287a693,Trinity University,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,af7eab45-d4b3-47ec-bd76-17bed4baf006,Skidmore College,Elite Midwest Liberal Arts,"Aspirational set of of nationally recruiting, liberal arts colleges",1
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,17bc125d-a7ab-4df1-a556-e0e15ba2fdd1,Allegheny College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,34f6e10e-2f5f-4da1-bca9-5c66cb8f81a7,Knox College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,4750c16e-b7ef-40ad-8c54-ed7b6e6bcb4e,Juniata College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,b83fbbd8-eb1c-471d-9c62-0b6e445e74aa,Lawrence University,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,04c2f950-cb5f-4785-a8fc-dad897becd6d,Beloit College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,53a1a524-ef97-4f51-a310-1af4a50f05b0,Rhodes College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,9d87a681-a420-4920-a729-3cfaa05b02b9,St. Olaf College,Comparable Colleges,"Comparables colleges, outside of the midwest",2
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,63e76011-4469-456a-ad84-ab370526df66,Lake Forest College,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,c5aa5e04-2d3a-45bd-8e83-4df976f79700,Hope College,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,6e001eef-6195-431a-b281-c944206bc540,DePauw University,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,f36f062d-49d8-491e-a8c1-a148d092ff5b,Kalamazoo College,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,e08e643d-b10a-4d71-9ec6-666077482edb,Ohio Wesleyan University,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,319b5387-5c04-4800-8c43-235676099e04,College of Wooster,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,Indiana / Midwest Comparable Colleges,"Comparable colleges, Indiana and Midwest Focused",3
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,b4e1e7f4-34dd-4731-a21a-2c470bee2121,Bard College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,270c8040-37a5-4c46-9aa1-4afe8b36380f,Bennington College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,7e5b204e-da28-40c9-b69c-6dde84b11630,Oberlin College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,03b176b4-a7d7-4aff-8138-00f50a33f0be,Sarah Lawrence College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,d8a18ac9-0e33-430c-bc78-4e69c5681ff4,Reed College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,7c8c85f9-9964-4524-b936-a3fb036190b7,Antioch College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,4f2691e0-f121-4f58-bfa5-665510ed83d0,Hampshire College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,6504f1ee-d47c-44e5-a611-cf344b3effb9,Lewis & Clark College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,0d7e89d6-ca95-4ad4-bf25-7b1b7760474c,The Evergreen State College,Cultural Comparables,Colleges with similar cultures,4
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,a5f77381-d187-4a5a-be55-fc272e5c30e5,Wabash College,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,2b15541d-7892-425e-8687-13ae02e2f925,Franklin College,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,487d0cbe-56bc-41c6-ab33-ad89c36cb918,Manchester University,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,6e001eef-6195-431a-b281-c944206bc540,DePauw University,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,16779aec-9bde-4fe8-8f4a-5eb5502ed639,Hanover College,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,b30e64cd-f2a2-45ea-9dd2-f0de7fcc1c6f,Anderson University - Indiana,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,23dfdc50-c6a3-42a5-b318-71186d894781,Taylor University,Indiana Privates,Private colleges in Indiana,5
+,e069d749-b40b-4033-be88-649856af92c1,Earlham College,450e54ff-bab1-4a3f-a06f-5dd161ad0d0a,Goshen College,Indiana Privates,Private colleges in Indiana,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,65ed31e0-db36-4ec4-bb1a-73e0a38a885f,University of Maryland - Global Campus,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,a78118a3-87bb-4861-9b2e-06f244c53bbc,Loyola University Maryland,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,acfbad09-d55d-4101-afcf-500ce0450c89,United States Naval Academy,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,1efd3b32-c1ea-4216-b5f3-6b68b55c6728,Morgan State University,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,eab48e37-afef-49f3-a5c9-c3b7b5571e43,George Mason University,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,2b3e0dea-5255-4fa4-af03-4a14bb5889f0,New Jersey Institute of Technology,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,247dcdd9-5818-47b5-a3f3-fbb1037212c4,University of Maryland - Baltimore,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,79f8ae06-8878-4e4e-87de-0301f452173a,University of Maryland - College Park,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,8d46846a-1658-4bee-9be5-907f81bed79a,Goucher College,Computer Science,Colleges in overlap markets offering computer science,1
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,76ef9c66-beb9-4ad6-b413-b995d78a9a4c,University of Delaware,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,9345ec53-04a7-4e39-90ba-c916b9182cde,Bowie State University,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,79f8ae06-8878-4e4e-87de-0301f452173a,University of Maryland - College Park,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,68e77f22-ad27-473f-acd6-7a228732577f,"University of Maryland, Baltimore County",University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,4f2a30ef-db6a-4201-9cb3-690f97217c2e,University of Maryland Eastern Shore,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,f6864856-1dd5-488f-b2ad-532ff8b061b6,St. Mary's College of Maryland,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,247dcdd9-5818-47b5-a3f3-fbb1037212c4,University of Maryland - Baltimore,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,5586a9bd-51af-4b9b-9b81-5845bbc38748,Frostburg State University,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,ab1a251c-f240-4436-86fb-89c4136c70ed,Towson University,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,2a97f7fd-da39-476f-8a72-3ebeb519914d,Stevenson University,University Competitors,University competitors in overlap markets,2
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,a1ac9215-0465-4382-bd92-80f2692c8d2f,Baltimore City Community College,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,4f2a30ef-db6a-4201-9cb3-690f97217c2e,University of Maryland Eastern Shore,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,a92e489c-6479-4ab6-a7f5-da4b36f81f3a,Liberty University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,270c6db6-25a6-4b0e-b3b7-bcd9f91b3936,Delaware State University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,5e85a14e-fd49-45fb-a674-53fec546fda3,Averett University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,5efd3575-e136-48cc-a461-6f278c3beb5f,Hampton University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,e9b8e24a-a96e-42f6-aae5-4c89ca96d7d3,Elizabeth City State University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,04f9ab8d-dd5e-427f-acd8-841051062033,Embry-Riddle Aeronautical University,Colleges with Aviation Programs,Market to support aviation program recruitment,3
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,2cb0f0a7-571f-47b4-a2c0-11afd1ca6581,Excelsior University,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,d8a17c0f-cc25-4d2a-b231-0303ea016427,Carnegie Mellon University,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,79f8ae06-8878-4e4e-87de-0301f452173a,University of Maryland - College Park,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,65ed31e0-db36-4ec4-bb1a-73e0a38a885f,University of Maryland - Global Campus,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,9345ec53-04a7-4e39-90ba-c916b9182cde,Bowie State University,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,ab1a251c-f240-4436-86fb-89c4136c70ed,Towson University,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,acfbad09-d55d-4101-afcf-500ce0450c89,United States Naval Academy,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,0de4b9ec-961d-4915-8869-7496b5688f15,Rochester Institute of Technology,Colleges with Cybersecurity,Colleges in overlap markets offering cybersecurity,4
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,ae57a0c9-a65b-4163-a763-42c95ad9de22,The University of Baltimore,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,bc6f707c-da0e-4db1-b06f-ebfe9473423b,Johns Hopkins University,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,a78118a3-87bb-4861-9b2e-06f244c53bbc,Loyola University Maryland,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,8d46846a-1658-4bee-9be5-907f81bed79a,Goucher College,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,5f1ac51e-b8b2-4bc1-bcd3-727e13168e54,Washington Adventist University,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,0506d9ac-8226-46cd-b7c4-0f3cd8a97e66,Coppin State University,All College Market,General list of competitor colleges in overlap markets,5
+,c1a32b1d-394d-42ff-9ca0-bc1d55195d24,Capitol Technology University,e3199e9d-67d9-48da-a3eb-2d5fdd15918d,University of the District of Columbia,All College Market,General list of competitor colleges in overlap markets,5
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,b8b0b015-4c19-47e8-bc54-f704470b5d1e,University of Oklahoma,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,e2c23d77-a108-41a1-b566-05fcb2e742c6,Oklahoma State University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,14315b39-88dc-4f53-842d-76f0b7835d56,Oral Roberts University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,b9b88a2e-0178-41d8-8ef2-25009187556c,University of Central Oklahoma,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,06666c39-6e59-4521-8779-9114e0db10a2,Oklahoma Baptist University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,f98b224b-a6ba-4689-96ad-1ac05d172d46,Northeastern State University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,864919d6-f9c8-4d98-8ee1-87ae2283b9a7,Oklahoma Christian University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,00e9693f-fcbc-4c77-ae73-b3423b733597,Rogers State University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,f5342aef-9206-4df9-bcfe-f2ac9b70bc63,Oklahoma State University - Oklahoma City,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,b0bed62f-b0d1-411a-ba4f-2389721e2196,Oklahoma City University,In-State Market Comparison,Comparable schools in Oklahoma,1
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,ba06e292-7562-4501-83bf-9842bb0589f8,Texas Christian University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,fb07a27e-4a51-4330-a600-094f5786a7d9,Houston Christian University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,aa378d78-d44c-4980-abb6-7cd54df60533,Hardin-Simmons University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,b1b6ff67-4938-4b0c-9645-8ae03caeb22f,Southern Methodist University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,ac9cfdaf-b7c0-44c8-931b-af5caa160f52,Texas A&M University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,3c1bba7d-a36d-493c-b74f-20b18c3c23df,Baylor University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,5747590f-e816-466d-a519-33f175061453,Rice University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,bc90e2b6-e112-43ed-ac5c-3548829ea3dd,University of Texas - Austin,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,f3315e60-decf-4d24-9051-86c3a287a693,Trinity University,Texas Market Comparison,Comparable schools in Texas,2
+,4fa61b7f-bd1a-40eb-9843-098177afbda2,The University of Tulsa,134539d5-e860-4c36-85f9-a5cc48d67109,Texas Tech University,Texas Market Comparison,Comparable schools in Texas,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,1055a5cc-2b9a-4c13-87d0-9f5e4863dba8,Asbury University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,dc24c3d4-310d-475f-8637-b2a18f38af11,Bellarmine University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,feb8814f-9ea8-4eb1-a17c-05cc7f167b53,Berea College,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,4f36b886-599a-46bb-9861-e309e3a699d5,Eastern Kentucky University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,efc0fa60-5b1f-4c06-ae94-1812657b75cf,Georgetown College,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,709c9868-25cf-40d4-b94e-b2420a0dbbc6,Morehead State University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,5b881fb8-ccbc-444e-8641-672e2458ed3f,Murray State University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,51a8a818-b9de-4e30-b9b9-acfd16032e05,Transylvania University,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,366832a5-05dd-47e7-9434-91ad1d86f859,University of Kentucky,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,3ccbb87c-1a04-431b-86fa-3471be039be9,University of Louisville,KY Cross Apps,Kentucky colleges with high cross-app,1
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,aab81765-0dc0-4f7e-ac15-280590baed68,Colorado College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,2585ec6d-0fea-499c-b7e1-a4b445853139,Denison University,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,54372752-4eb0-4df3-9c9b-afda7e80d16d,Franklin & Marshall College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,a0f32e0b-7896-407d-ab7c-b96ffe35d307,Gettysburg College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,d89702e5-2618-48c0-ba58-a67a9f0411c8,Grinnell College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,6d71d96c-77f0-4fc6-846f-8f4835ca6420,Kenyon College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,39a0f4a6-18de-4e61-8ef0-de48903d8b78,Lafayette College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,bbb471e1-f21d-4278-83a4-c97222ee902d,Macalester College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,d6fcb9a4-0e53-4db4-ab33-8ba0d7807017,Muhlenberg College,Small College Consortium,Colleges part of the small college consortium,2
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,b6fa95d1-441d-4568-ab4d-6e8fe10653ca,Berry College,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,94e4218a-ac47-4835-a295-3f66dc255540,Maryville College,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,21d0c3f8-3a91-42c1-81b8-4c5828db77dc,Millsaps College,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,34e8b4c6-5181-4d94-a5e8-20b4910947e0,Oglethorpe University,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,53a1a524-ef97-4f51-a310-1af4a50f05b0,Rhodes College,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,0f3f6467-1dca-4dda-9c65-37c2117fadb3,Sewanee - The University of the South,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,a7294d9b-e8ad-4d10-87d5-e2e413738080,Southwest University,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,f3315e60-decf-4d24-9051-86c3a287a693,Trinity University,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,7cdaccaa-4888-4f76-9352-28998c237e6c,Wittenberg University,Athletic Conference,Colleges in the same athletic conference,3
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,04c2f950-cb5f-4785-a8fc-dad897becd6d,Beloit College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,319b5387-5c04-4800-8c43-235676099e04,College of Wooster,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,6e001eef-6195-431a-b281-c944206bc540,DePauw University,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,e069d749-b40b-4033-be88-649856af92c1,Earlham College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,4f2691e0-f121-4f58-bfa5-665510ed83d0,Hampshire College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,4750c16e-b7ef-40ad-8c54-ed7b6e6bcb4e,Juniata College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,f36f062d-49d8-491e-a8c1-a148d092ff5b,Kalamazoo College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,34f6e10e-2f5f-4da1-bca9-5c66cb8f81a7,Knox College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,7e5b204e-da28-40c9-b69c-6dde84b11630,Oberlin College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,a5f77381-d187-4a5a-be55-fc272e5c30e5,Wabash College,CTCL,Colleges That Change Lives,5
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,1ad50a05-6325-4392-b428-a08c944e61ef,Davidson College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,1f4b31ee-7cb3-400b-820e-bf5acef29989,Furman University,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,7e141db4-0980-4a41-bd79-79dfa262d674,Hendrix College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,21d0c3f8-3a91-42c1-81b8-4c5828db77dc,Millsaps College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,83b6dad1-735e-4995-8892-5910e6dbbabd,Morehouse College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,53a1a524-ef97-4f51-a310-1af4a50f05b0,Rhodes College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,88ee91fc-900b-49c9-b905-633c8d58200f,Rollins College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,0f3f6467-1dca-4dda-9c65-37c2117fadb3,Sewanee - The University of the South,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,59885caa-b205-4c07-ab30-607ad21c8e12,Southwestern University,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,73446a4f-a085-462a-8efb-3bab23d03fce,Spelman College,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,f3315e60-decf-4d24-9051-86c3a287a693,Trinity University,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,94a3b32f-7213-4ea2-bc3a-5aa612b3850c,University of Richmond,ACS,Accociated Colleges of the South,4
+,256bfe72-bef3-4a32-accd-91c9306baad9,Centre College,9ec8d52e-4aec-4d22-8932-cd330813dcd5,Washington and Lee University,ACS,Accociated Colleges of the South,4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5227aaf0-02d7-497d-ad78-aeacf304eb38,Seattle University,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3d9f7ffe-5d9b-45af-815a-5ac0c2f4c52c,Gonzaga University,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,72a41b41-aadc-45ea-bf78-592becb4f1b7,University of San Francisco,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3b71452f-b6c1-4c12-86a2-1f4e160fdfb3,Santa Clara University,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,d0f99d70-e991-434a-a22b-d01ba983143d,Chaminade University of Honolulu,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,69ce0fbb-58c4-45e8-b17b-0480a915771a,Saint Mary's College of California,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,62f0c452-9441-4c5b-b83d-cd8de1a7527c,University of San Diego,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,8c7f93e4-7738-43ab-81e2-876c5fef63ce,Loyola Marymount University,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,1d5b13f0-4223-40dd-a647-282410d0fb58,Mount Saint Mary's University Los Angeles,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,ee7d2698-9fcb-4645-9c99-cbc2c88cb232,Creighton University,Catholic Competitors,"Catholics similar in size, market, competitors",1
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,bdfbfaf3-f957-4b03-8c05-b600a3938e27,Portland State University,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,ad74490c-c545-420d-80c6-46146daaf5a9,Pacific University Oregon,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,ada7d3b1-b9c5-41cd-ad95-bddb87711e19,Oregon State University,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,a318fffc-8494-4337-a750-37c464292a01,University of Oregon,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,afc0b74e-6160-405f-b9ec-69f67855b331,Linfield University,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,6504f1ee-d47c-44e5-a611-cf344b3effb9,Lewis & Clark College,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5c9ab696-de0e-4271-8bf4-163137359704,Willamette University,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3c342441-3847-44b0-843a-71798dc38fbc,George Fox University,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3b2a0fda-87e8-4a74-96ed-007fb31ef41c,Portland Community College,Oregon Competitors,Competitor schools in Oregon,2
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,ad74490c-c545-420d-80c6-46146daaf5a9,Pacific University Oregon,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5227aaf0-02d7-497d-ad78-aeacf304eb38,Seattle University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,115796b4-a9ea-457d-8f42-15755f0b306f,Seattle Pacific University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,afc0b74e-6160-405f-b9ec-69f67855b331,Linfield University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,6504f1ee-d47c-44e5-a611-cf344b3effb9,Lewis & Clark College,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,7283a37d-8440-4c00-b86c-78c5038a0791,University of Puget Sound,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3d9f7ffe-5d9b-45af-815a-5ac0c2f4c52c,Gonzaga University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,26baab19-ef79-40b2-a17d-2bda477423a1,Pacific Lutheran University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5c9ab696-de0e-4271-8bf4-163137359704,Willamette University,Pacific Northwest Privates,Private schools in the PNW,3
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,cb3dfa63-2ab6-4f7a-a218-4919f8d8b694,University of Dayton,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,d3866e88-49fd-47ad-a8bc-6b74f86b9c33,Saint Louis University,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5227aaf0-02d7-497d-ad78-aeacf304eb38,Seattle University,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,21f8641e-453a-43ad-9945-eec60c6d7031,University of Detroit Mercy,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,72a41b41-aadc-45ea-bf78-592becb4f1b7,University of San Francisco,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,4caa6248-6cbc-40bf-af3a-42650b42a8e9,Villanova University,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,6596010e-594b-49f4-9a98-923eed5078c1,The Catholic University of America,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,1c9182d2-2d4a-4181-8e42-19f15cb46ea3,University of St. Thomas - Texas,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,e055d106-a615-4d6a-9470-3da34fab0ca4,DePaul University,National Urban Catholics (excl outliers),"Catholics in urban area populations between 2.5 mil and 9.5 mil, Tuition < 70k",4
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5227aaf0-02d7-497d-ad78-aeacf304eb38,Seattle University,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,62f0c452-9441-4c5b-b83d-cd8de1a7527c,University of San Diego,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3b71452f-b6c1-4c12-86a2-1f4e160fdfb3,Santa Clara University,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,8c7f93e4-7738-43ab-81e2-876c5fef63ce,Loyola Marymount University,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,5661693d-f152-4d12-b65f-f318532a03d5,University of St. Thomas - Minnesota,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,2c61d1b3-13b0-45db-87df-f3df02787d3a,University of Denver,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,3d9f7ffe-5d9b-45af-815a-5ac0c2f4c52c,Gonzaga University,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,95009e06-caa3-4ad2-801a-a1251d4ff41a,University of the Pacific,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5
+,660f3659-7387-4d8b-91d7-a3c56fd9f684,University of Portland,ee7d2698-9fcb-4645-9c99-cbc2c88cb232,Creighton University,STEM/Health Focused Privates," Privates, strong but not elite selectivity, urban/suburban, with strong stem programs west of the Mississippi river",5

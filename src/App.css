@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.navigation {
+  background-color: var(--color-primary);
+  padding: 1rem;
+  color: var(--color-near-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.nav-brand-text h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nav-brand-text span {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: var(--color-near-white);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: var(--color-secondary);
+  color: var(--color-near-black);
+}
+
+.logout-btn {
+  background-color: var(--color-accent-3);
+  color: var(--color-near-white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.logout-btn:hover {
+  background-color: var(--color-accent-1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-title {
+  color: var(--color-near-black);
+  margin-bottom: 2rem;
+}
