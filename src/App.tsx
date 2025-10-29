@@ -14,6 +14,8 @@ interface User {
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
   const [user, setUser] = useState<User | null>(null)
+  const [removedSchools, setRemovedSchools] = useState<Set<string>>(new Set())
+  const [addedSchools, setAddedSchools] = useState<Set<string>>(new Set())
 
   const handleLogin = (userData: User) => {
     setIsAuthenticated(true)
@@ -42,7 +44,12 @@ function App() {
             path="/app" 
             element={
               isAuthenticated ? 
-                <MapView /> : 
+                <MapView 
+                  removedSchools={removedSchools}
+                  setRemovedSchools={setRemovedSchools}
+                  addedSchools={addedSchools}
+                  setAddedSchools={setAddedSchools}
+                /> : 
                 <Navigate to="/login" replace />
             } 
           />
@@ -50,7 +57,10 @@ function App() {
             path="/summary" 
             element={
               isAuthenticated ? 
-                <Summary /> : 
+                <Summary 
+                  removedSchools={removedSchools}
+                  addedSchools={addedSchools}
+                /> : 
                 <Navigate to="/login" replace />
             } 
           />

@@ -12,12 +12,14 @@ L.Icon.Default.mergeOptions({
 })
 
 // Create custom colored icons
-const createColoredIcon = (color: string, label: string) => {
+const createColoredIcon = (color: string, label: string, rank?: number) => {
   return L.divIcon({
     className: 'custom-marker',
     html: `
       <div class="marker-wrapper">
-        <div style="background-color: ${color}; width: 25px; height: 25px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3);"></div>
+        <div style="background-color: ${color}; width: 25px; height: 25px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+          ${rank ? `<span style="transform: rotate(45deg); color: white; font-weight: bold; font-size: 12px;">${rank}</span>` : ''}
+        </div>
         <div class="marker-label">${label}</div>
       </div>
     `,
@@ -82,16 +84,22 @@ interface CollegeLocation {
   state: string;
 }
 
-function MapView() {
+interface MapViewProps {
+  removedSchools: Set<string>;
+  setRemovedSchools: React.Dispatch<React.SetStateAction<Set<string>>>;
+  addedSchools: Set<string>;
+  setAddedSchools: React.Dispatch<React.SetStateAction<Set<string>>>;
+}
+
+function MapView({ removedSchools, setRemovedSchools, addedSchools, setAddedSchools }: MapViewProps) {
   const [competitorData, setCompetitorData] = useState<CompetitorDataRow[]>([])
   const [selectedCollege, setSelectedCollege] = useState<CollegeLocation | null>(null)
   const [mapCenter] = useState<[number, number]>([36.1539, -95.9436]) // Center on Tulsa
   const [selectedFilter, setSelectedFilter] = useState<string>('')
   const [availableFilters, setAvailableFilters] = useState<string[]>([])
-  const [removedSchools, setRemovedSchools] = useState<Set<string>>(new Set())
   const [searchQuery, setSearchQuery] = useState<string>('')
   const [showSuggestions, setShowSuggestions] = useState<boolean>(false)
-  const [addedSchools, setAddedSchools] = useState<Set<string>>(new Set())
+  const [newlyAddedSchool, setNewlyAddedSchool] = useState<string | null>(null)
 
   // College location for University of Tulsa
   const baseCollege: CollegeLocation = {
@@ -268,6 +276,59 @@ function MapView() {
     return [...competitors, ...addedForCategory]
   }
 
+  const getFilteredCompetitorsWithRanks = (): Array<CollegeLocation & { rank?: number }> => {
+    if (selectedFilter === 'all' || !selectedFilter) {
+      return getFilteredCompetitors()
+    }
+
+    // Get filtered data for the selected category, sorted by similarity score
+    const filteredData = competitorData
+      .filter(row => row.Category === selectedFilter)
+      .filter(row => !removedSchools.has(row['School Name'] || ''))
+      .sort((a, b) => {
+        const scoreA = parseFloat(a['Similarity Score'] || '0')
+        const scoreB = parseFloat(b['Similarity Score'] || '0')
+        return scoreB - scoreA // Sort descending by similarity
+      })
+    
+    // Create a map of school names to recalculated ranks (1, 2, 3, etc.)
+    const rankMap = new Map<string, number>()
+    filteredData.forEach((row, index) => {
+      if (row['School Name']) {
+        rankMap.set(row['School Name'], index + 1)
+      }
+    })
+
+    // Get unique competitors with their locations and recalculated ranks
+    const uniqueCompetitors = Array.from(new Set(
+      filteredData.map(row => row['School Name']).filter(Boolean)
+    ))
+    const competitors = uniqueCompetitors
+      .map(name => {
+        const location = competitorLocations[name!]
+        if (location) {
+          return { ...location, rank: rankMap.get(name!) }
+        }
+        return null
+      })
+      .filter(Boolean) as Array<CollegeLocation & { rank?: number }>
+
+    // Add manually added schools with ranks continuing from the last competitor
+    const nextRank = competitors.length + 1
+    const addedForCategory = Array.from(addedSchools)
+      .filter(name => !removedSchools.has(name))
+      .map((name, index) => {
+        const location = competitorLocations[name]
+        if (location) {
+          return { ...location, rank: nextRank + index }
+        }
+        return null
+      })
+      .filter(Boolean) as Array<CollegeLocation & { rank?: number }>
+
+    return [...competitors, ...addedForCategory]
+  }
+
   const getMarkerColor = (): string => {
     if (selectedFilter === 'all') {
       return accentColors[0] // Default color for "all"
@@ -278,6 +339,7 @@ function MapView() {
   }
 
   const filteredColleges = getFilteredCompetitors()
+  const filteredCollegesWithRanks = getFilteredCompetitorsWithRanks()
   const markerColor = getMarkerColor()
 
   const parseCSV = (csvText: string): CompetitorDataRow[] => {
@@ -306,6 +368,15 @@ function MapView() {
 
   const handleRemoveSchool = (schoolName: string) => {
     setRemovedSchools(prev => new Set(prev).add(schoolName))
+    
+    // Close all open popups
+    const popups = document.querySelectorAll('.leaflet-popup')
+    popups.forEach(popup => {
+      const closeButton = popup.querySelector('.leaflet-popup-close-button') as HTMLElement
+      if (closeButton) {
+        closeButton.click()
+      }
+    })
   }
 
   const handleRestoreSchool = (schoolName: string) => {
@@ -335,6 +406,15 @@ function MapView() {
     setAddedSchools(prev => new Set(prev).add(schoolName))
     setSearchQuery('')
     setShowSuggestions(false)
+    setNewlyAddedSchool(schoolName)
+    
+    // Scroll to the map
+    setTimeout(() => {
+      const mapContainer = document.querySelector('.map-container')
+      if (mapContainer) {
+        mapContainer.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    }, 100)
   }
 
   return (
@@ -417,13 +497,20 @@ function MapView() {
               </Marker>
               
               {/* Competitor markers */}
-              {filteredColleges.map((college, index) => (
+              {filteredCollegesWithRanks.map((college, index) => (
                 <Marker 
                   key={index}
                   position={[college.lat, college.lng]}
-                  icon={createColoredIcon(markerColor, college.name)}
+                  icon={createColoredIcon(markerColor, college.name, college.rank)}
                   eventHandlers={{
-                    click: () => setSelectedCollege(college)
+                    click: () => setSelectedCollege(college),
+                    add: (e) => {
+                      // Open popup for newly added schools
+                      if (newlyAddedSchool === college.name) {
+                        e.target.openPopup()
+                        setNewlyAddedSchool(null)
+                      }
+                    }
                   }}
                 >
                   <Popup>
@@ -482,24 +569,30 @@ function MapView() {
             </div>
           )}
 
-          {removedSchools.size > 0 && (
+          {selectedFilter && selectedFilter !== 'all' && (
             <div className="removed-schools-section">
               <h3>Removed Schools</h3>
-              <p className="removed-info">Click the restore button to add schools back to the map</p>
-              <div className="removed-schools-grid">
-                {Array.from(removedSchools).map((schoolName) => (
-                  <div key={schoolName} className="removed-school-card">
-                    <span className="school-name">{schoolName}</span>
-                    <button
-                      className="restore-btn"
-                      onClick={() => handleRestoreSchool(schoolName)}
-                      title="Restore to list"
-                    >
-                      ⟲
-                    </button>
-                  </div>
-                ))}
-              </div>
+              <p className="removed-info">
+                {removedSchools.size > 0 
+                  ? 'Click the restore button to add schools back to the map' 
+                  : 'No schools have been removed yet'}
+              </p>
+              {removedSchools.size > 0 && (
+                <div className="removed-schools-grid">
+                  {Array.from(removedSchools).map((schoolName) => (
+                    <div key={schoolName} className="removed-school-card">
+                      <span className="school-name">{schoolName}</span>
+                      <button
+                        className="restore-btn"
+                        onClick={() => handleRestoreSchool(schoolName)}
+                        title="Restore to list"
+                      >
+                        ⟲
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

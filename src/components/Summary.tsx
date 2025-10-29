@@ -34,14 +34,19 @@ interface GroupedData {
   [setName: string]: CompetitorSet;
 }
 
-function Summary() {
+interface SummaryProps {
+  removedSchools: Set<string>;
+  addedSchools: Set<string>;
+}
+
+function Summary({ removedSchools, addedSchools }: SummaryProps) {
   const [, setCompetitorData] = useState<CompetitorDataRow[]>([])
   const [groupedData, setGroupedData] = useState<GroupedData>({})
   const [loading, setLoading] = useState<boolean>(true)
 
   useEffect(() => {
     loadCompetitorData()
-  }, [])
+  }, [removedSchools, addedSchools])
 
   const loadCompetitorData = async () => {
     try {
@@ -85,7 +90,8 @@ function Summary() {
           }
         }
         
-        if (row['School Name']) {
+        // Only add schools that haven't been removed
+        if (row['School Name'] && !removedSchools.has(row['School Name'])) {
           grouped[category].competitors.push({
             name: row['School Name'],
             rank: row.Rank || '',

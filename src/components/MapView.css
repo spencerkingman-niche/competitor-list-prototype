@@ -264,17 +264,18 @@
 }
 
 .market-insight {
-  display: inline;
+  display: flex;
+  align-items: center;
   font-size: 1.2rem;
+  gap: 0.5rem;
 }
 
 .market-insight .insight-icon {
   font-size: 1.25rem;
-  margin-right: 0.5rem;
+  flex-shrink: 0;
 }
 
 .market-insight p {
-  display: inline;
   margin: 0;
   line-height: 1.6;
   color: var(--color-near-black);
@@ -310,6 +311,7 @@
 .autocomplete-wrapper {
   position: relative;
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .school-search-input {
@@ -376,7 +378,7 @@
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  margin-top: 1.5rem;
+  flex: 1;
 }
 
 .removed-schools-section h3 {
