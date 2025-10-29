@@ -46,7 +46,7 @@ function Summary() {
   const loadCompetitorData = async () => {
     try {
       // Load the CSV data
-      const response = await fetch('/university-of-tulsa-data.csv')
+      const response = await fetch(`${import.meta.env.BASE_URL}university-of-tulsa-data.csv`)
       const csvText = await response.text()
       const data = parseCSV(csvText)
       setCompetitorData(data)
@@ -148,24 +148,19 @@ function Summary() {
         </div>
 
         <div className="competitor-sets">
-          {getSortedCategories().map(({ category, avgSimilarity, data }, index) => (
+          {getSortedCategories().map(({ category, data }, index) => (
             <div key={category} className="competitor-set">
               <div className="set-header">
                 <div className="header-content">
                   <div className="priority-label">Priority {index + 1}</div>
                   <h3>{category}</h3>
-                  <div className="avg-similarity">
-                    Avg. Similarity: {(avgSimilarity * 100).toFixed(1)}%
-                  </div>
                 </div>
               </div>
               
               {data.description && (
-                <div className="set-description">
-                  <div className="description-text">
-                    <span className="insight-icon">💡</span>
-                    {data.description}
-                  </div>
+                <div className="description-text">
+                  <span className="insight-icon">💡</span>
+                  {data.description}
                 </div>
               )}
               

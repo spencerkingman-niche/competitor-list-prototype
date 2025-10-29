@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/competitor-list-prototype">
       <div className="App">
         {isAuthenticated && <Navigation onLogout={handleLogout} user={user} />}
         <Routes>

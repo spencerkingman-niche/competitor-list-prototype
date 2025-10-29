@@ -108,7 +108,7 @@ function MapView() {
 
   const loadCompetitorData = async () => {
     try {
-      const response = await fetch('/university-of-tulsa-data.csv')
+      const response = await fetch(`${import.meta.env.BASE_URL}university-of-tulsa-data.csv`)
       const csvText = await response.text()
       const data = parseCSV(csvText)
       
@@ -304,14 +304,6 @@ function MapView() {
     return firstRow?.Description || ''
   }
 
-  const getSelectedFilterAvgSimilarity = (): number => {
-    if (!selectedFilter || selectedFilter === 'all') return 0
-    const rows = competitorData.filter(row => row.Category === selectedFilter)
-    if (rows.length === 0) return 0
-    const total = rows.reduce((sum, row) => sum + parseFloat(row['Similarity Score'] || '0'), 0)
-    return total / rows.length
-  }
-
   const handleRemoveSchool = (schoolName: string) => {
     setRemovedSchools(prev => new Set(prev).add(schoolName))
   }
@@ -348,9 +340,26 @@ function MapView() {
   return (
     <div className="map-view">
       <div className="map-header">
-        <h1>Market Intelligence Map</h1>
+        <h1>Competitor Markets</h1>
         <p>Select a competitor market to view schools on the map</p>
       </div>
+      
+      {selectedFilter && selectedFilter !== 'all' && (
+        <div className="market-description">
+          <div className="market-header">
+            <h2>{selectedFilter}</h2>
+            <div className="market-stats">
+              <span className="stat-item">
+                <strong>{filteredColleges.length}</strong> schools
+              </span>
+            </div>
+          </div>
+          <div className="market-insight">
+            <span className="insight-icon">💡</span>
+            <p>{getSelectedFilterDescription()}</p>
+          </div>
+        </div>
+      )}
       
       <div className="map-layout">
         <div className="filter-sidebar">
@@ -435,26 +444,6 @@ function MapView() {
           </div>
         </div>
       </div>
-      
-      {selectedFilter && selectedFilter !== 'all' && (
-        <div className="market-description">
-          <div className="market-header">
-            <h2>{selectedFilter}</h2>
-            <div className="market-stats">
-              <span className="stat-item">
-                <strong>{filteredColleges.length}</strong> schools
-              </span>
-              <span className="stat-item">
-                <strong>{(getSelectedFilterAvgSimilarity() * 100).toFixed(1)}%</strong> avg. similarity
-              </span>
-            </div>
-          </div>
-          <div className="market-insight">
-            <span className="insight-icon">💡</span>
-            <p>{getSelectedFilterDescription()}</p>
-          </div>
-        </div>
-      )}
 
       {selectedFilter && selectedFilter !== 'all' && (
         <div className="add-school-section">

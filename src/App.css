@@ -7,15 +7,18 @@
   padding: 1rem;
   color: var(--color-near-white);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .nav-brand {
   display: flex;
   align-items: center;
   gap: 1rem;
+  position: absolute;
+  left: 1rem;
 }
 
 .nav-logo {
@@ -69,6 +72,8 @@
   cursor: pointer;
   transition: background-color 0.3s;
   font-weight: 600;
+  position: absolute;
+  right: 1rem;
 }
 
 .logout-btn:hover {

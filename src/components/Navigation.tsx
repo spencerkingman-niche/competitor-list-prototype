@@ -17,7 +17,7 @@ function Navigation({ onLogout, user }: NavigationProps) {
     <nav className="navigation">
       <div className="nav-brand">
         <img 
-          src="/images/Niche Logo White.png" 
+          src={`${import.meta.env.BASE_URL}images/Niche Logo White.png`}
           alt="Niche Logo" 
           className="nav-logo"
         />

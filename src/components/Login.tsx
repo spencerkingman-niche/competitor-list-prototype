@@ -60,7 +60,7 @@ function Login({ onLogin }: LoginProps) {
       <div className="login-card">
         <div className="login-header">
           <img 
-            src="/images/Niche Logo Green.png" 
+            src={`${import.meta.env.BASE_URL}images/Niche Logo Green.png`}
             alt="Niche Logo" 
             className="login-logo"
           />
