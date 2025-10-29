@@ -171,6 +171,7 @@
 
 .description-text {
   display: inline;
+  font-size: 1.2rem;
 }
 
 .insight-icon {
@@ -200,7 +201,7 @@
 
 .competitors-table th {
   padding: 0.5rem 0.75rem;
-  text-align: left;
+  text-align: center;
   font-weight: 600;
   font-size: 0.75rem;
   text-transform: uppercase;

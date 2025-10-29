@@ -118,6 +118,14 @@ function Summary() {
     return 'var(--color-accent-5)' // Rest - 8CA6FF
   }
 
+  const getSimilarityLabel = (scoreString: string): string => {
+    const score = parseFloat(scoreString)
+    if (score > 0.25) return 'Very High'
+    if (score >= 0.20) return 'High'
+    if (score >= 0.15) return 'Medium'
+    return 'Low'
+  }
+
   if (loading) {
     return (
       <div className="summary-container">
@@ -193,7 +201,7 @@ function Summary() {
                         <td>{competitor.state}</td>
                         <td>{competitor.type}</td>
                         <td>{competitor.religion || '—'}</td>
-                        <td>{(parseFloat(competitor.similarityScore) * 100).toFixed(0)}%</td>
+                        <td>{getSimilarityLabel(competitor.similarityScore)}</td>
                         <td>{(parseFloat(competitor.acceptanceRate) * 100).toFixed(0)}%</td>
                         <td className="grade-cell">{competitor.nicheGrade}</td>
                       </tr>

@@ -445,61 +445,65 @@ function MapView() {
         </div>
       </div>
 
-      {selectedFilter && selectedFilter !== 'all' && (
-        <div className="add-school-section">
-          <h3>Add School to This Market</h3>
-          <p className="add-school-info">Search and add additional competitors to the {selectedFilter} market</p>
-          <div className="autocomplete-wrapper">
-            <input
-              type="text"
-              className="school-search-input"
-              placeholder="Search for schools..."
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value)
-                setShowSuggestions(true)
-              }}
-              onFocus={() => setShowSuggestions(true)}
-              onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
-            />
-            {showSuggestions && getFilteredSuggestions().length > 0 && (
-              <div className="suggestions-list">
-                {getFilteredSuggestions().map((school) => (
-                  <div
-                    key={school}
-                    className="suggestion-item"
-                    onClick={() => handleAddSchool(school)}
-                  >
-                    <span className="suggestion-name">{school}</span>
-                    <span className="suggestion-state">{competitorLocations[school].state}</span>
+      {(selectedFilter && selectedFilter !== 'all') || removedSchools.size > 0 ? (
+        <div className="schools-management-container">
+          {selectedFilter && selectedFilter !== 'all' && (
+            <div className="add-school-section">
+              <h3>Add School to This Market</h3>
+              <p className="add-school-info">Search and add additional competitors to the {selectedFilter} market</p>
+              <div className="autocomplete-wrapper">
+                <input
+                  type="text"
+                  className="school-search-input"
+                  placeholder="Search for schools..."
+                  value={searchQuery}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value)
+                    setShowSuggestions(true)
+                  }}
+                  onFocus={() => setShowSuggestions(true)}
+                  onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+                />
+                {showSuggestions && getFilteredSuggestions().length > 0 && (
+                  <div className="suggestions-list">
+                    {getFilteredSuggestions().map((school) => (
+                      <div
+                        key={school}
+                        className="suggestion-item"
+                        onClick={() => handleAddSchool(school)}
+                      >
+                        <span className="suggestion-name">{school}</span>
+                        <span className="suggestion-state">{competitorLocations[school].state}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {removedSchools.size > 0 && (
+            <div className="removed-schools-section">
+              <h3>Removed Schools</h3>
+              <p className="removed-info">Click the restore button to add schools back to the map</p>
+              <div className="removed-schools-grid">
+                {Array.from(removedSchools).map((schoolName) => (
+                  <div key={schoolName} className="removed-school-card">
+                    <span className="school-name">{schoolName}</span>
+                    <button
+                      className="restore-btn"
+                      onClick={() => handleRestoreSchool(schoolName)}
+                      title="Restore to list"
+                    >
+                      ⟲
+                    </button>
                   </div>
                 ))}
               </div>
-            )}
-          </div>
+            </div>
+          )}
         </div>
-      )}
-
-      {removedSchools.size > 0 && (
-        <div className="removed-schools-section">
-          <h3>Removed Schools</h3>
-          <p className="removed-info">Click the restore button to add schools back to the map</p>
-          <div className="removed-schools-grid">
-            {Array.from(removedSchools).map((schoolName) => (
-              <div key={schoolName} className="removed-school-card">
-                <span className="school-name">{schoolName}</span>
-                <button
-                  className="restore-btn"
-                  onClick={() => handleRestoreSchool(schoolName)}
-                  title="Restore to list"
-                >
-                  ⟲
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      ) : null}
     </div>
   )
 }
